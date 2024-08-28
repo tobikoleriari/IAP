@@ -16,9 +16,10 @@ public function user_age ($name, $yob){
      return $name ." is ". $age;
 }
 }
-$Obj = new fnc();
 
-print $Obj ->user_age("Toby",1955);
+
+
+
 
 
 
