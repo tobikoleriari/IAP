@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.topnav{
+    background-color: black;
+    overflow: hidden;
+
+}
+.topnav a{
+    color: azure;
+    float: left;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    padding: 14px 16px;
+}

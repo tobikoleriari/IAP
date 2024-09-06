@@ -1,4 +1,18 @@
-<!DOCTYPE html>
+<?php
+require "load.php";
+$Objlayout ->heading();
+$ObjMenus ->main_menus();
+$Objlayout ->footer();
+?>
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,7 +25,7 @@
     <p>move code</p>
   <?php
   require_once "load.php";
-  print $Obj ->user_age("Toby",1955);
+  // print $Obj ->user_age("Toby",1955);
   ?>
   </body>
-</html>
+</html> -->

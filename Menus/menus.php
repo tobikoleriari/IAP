@@ -1,10 +1,10 @@
 <?php
 class menus{
-    public function main_menu(){
+    public function main_menus(){
         ?>
-        <div>
+        <div class ="topnav">
             <a href="./">Home</a>
-            <a href="./">Home</a>
+            <a href="./">About us</a>
     </div>
         <?php
     }
