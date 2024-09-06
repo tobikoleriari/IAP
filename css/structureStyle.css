@@ -1,6 +1,7 @@
 body{
-    background-color: black;
+    /* background-color: black; */
     margin: 0;
+    text-align: center;
 }
 *{
     box-sizing: border-box;
@@ -17,4 +18,22 @@ body{
     text-decoration: none;
     text-align: left;
     padding: 14px 16px;
+}
+.topnav a:hover{
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+
+}
+.topnav-right{
+    float: right;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

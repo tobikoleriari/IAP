@@ -1,1 +1,2 @@
-@import "css\structureStyle.css";
+@import url("structureStyle.css");
+@import url("contentStyle.css");

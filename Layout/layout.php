@@ -16,7 +16,7 @@ class layout{
     }
     public function footer(){
         ?>
-        <div class="copyright">
+        <div class="footer">
             Copy right &copy; ICS <?php print date("Y");?>
         </div>
         </body>
