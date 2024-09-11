@@ -6,5 +6,6 @@ class headings{
             <h1>Heading</h1>
         </div>
             <?php
+            
     }
 }
