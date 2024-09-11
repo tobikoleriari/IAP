@@ -1,10 +1,12 @@
 <?php
 require "load.php";
-$Objlayout ->heading();
-$ObjMenus ->main_menus();
-$Objheadings ->main_banner();
-$Objlayout ->footer();
-$Objheadings ->main_banner();
+$Objlayout->heading();
+$ObjMenus->main_menus();
+$Objheadings->main_banner();
+$ObjCont->main_content();
+$ObjCont->side_bar();
+$Objlayout->footer();
+
 ?>
 
 

@@ -23,6 +23,7 @@ $Objlayout = new layout();
 $ObjMenus = new menus();
 // require_once "Content\heading.php";
 $Objheadings = new headings();
+$ObjCont = new contents();
 
 
 
