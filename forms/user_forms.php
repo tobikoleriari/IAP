@@ -43,13 +43,13 @@ class user_forms{
                 <input type="email" id="email" class="form-control" required>
             </div>
 
-            <label for="password" class="form-label">Password</label>
+            <!-- <label for="password" class="form-label">Password</label>
             <div class="mb-1 input-group">
                 <span class="input-group-text">
                     <i class="bi bi-lock-fill"></i>
                 </span>
                 <input type="password" id="password" class="form-control" required>
-            </div>
+            </div> -->
             <label for="gender id" class="form-label">Gender</label>
             <div class="mb-1 input-group">
                 <span class="input-group-text">
