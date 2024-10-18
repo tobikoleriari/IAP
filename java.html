@@ -1,47 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-<!-- p1 -->
+  </head>
+  <body onload="startTimer()">
+    <!-- p1 -->
     <script>
-        document.write("Hello World");
+      document.write("Hello World");
     </script>
-    <br>
+    <br />
     <p id="demo"></p>
     <h1 id="demo1"></h1>
     <i id="demo2"></i>
     <script>
-     document.getElementById("demo2").innerHTML = "TOBIKO IS COOL";
+      document.getElementById("demo2").innerHTML = "TOBIKO IS COOL";
     </script>
-    <br>
+    <br />
     <!-- p2 -->
     <script>
-     document.write(5+6);
-     
+      document.write(5 + 6);
     </script>
 
-    <br>
+    <br />
     <!-- p3 -->
-    <button onclick="document.getElementById('My Img').src='bulb.webp'">Turn me on 	&#128511; </button>
-       <img src="bulb.webp"  id ="My Img" width ="150px">
-       <button onclick="document.getElementById('My Img').src='bulb_off2.jpg'">Turn me off 	&#128511; </button>
-       <br>
-       <a href="#" onclick="document.write(34+35)">Click me</a>
-<br>
-<!-- p4 -->
-       <script>
-        // window.alert('Connection Successful :)');
-       </script>
-<!-- p5 -->
-<a href="#" onclick="return confirm('Are you sure?');">Delete?</a>
-<!-- p6 -->
-<script>
-    console.log(45/15);
-</script>
-</body>
+    <button onclick="document.getElementById('My Img').src='bulb.webp'">
+      Turn me on &#128511;
+    </button>
+    <img src="bulb.webp" id="My Img" width="150px" />
+    <button onclick="document.getElementById('My Img').src='bulb_off2.jpg'">
+      Turn me off &#128511;
+    </button>
+    <br />
+    <a href="#" onclick="document.write(34+35)">Click me</a>
+    <br />
+    <!-- p4 -->
+    <script>
+      // window.alert('Connection Successful :)');
+    </script>
+    <!-- p5 -->
+    <a href="#" onclick="return confirm('Are you sure?');">Delete?</a>
+    <!-- p6 -->
+    <script>
+      console.log(45 / 15);
+    </script>
+    <!-- p7 -->
+
+    <br />
+    <span id="demo5" onclick="myScriptp(5,6);">Next</span>
+    <script src="script.js"></script>
+    <br />
+    <script>
+      var age = 18;
+      let name = "mike";
+      document.write(name + " is " + age + " years old");
+
+      if (age > 18) document.write("Can get it");
+      else document.write("AVOID!!!");
+    </script>
+    <script>
+      // let username =prompt('Enter your name');
+      // const message = 'Hello ' +username + ' Welcome to our site';
+      // or
+      const message = `Hello ${username}  Welcome to our site <br> Your name is ${username.toUpperCase()}`;
+      document.write(message);
+    </script>
+    <br />
+    <br />
+    <script src="startTimer.js"></script>
+    
+    <p id="tmr"></p>
+  </body>
 </html>
